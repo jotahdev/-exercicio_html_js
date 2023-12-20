@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário HTML com JavaScript</title>
+  
+</head>
+<body>
+
+  <form onsubmit="event.preventDefault(); validarFormulario();">
+    <label for="campoA">Campo A:</label>
+    <input type="number" id="campoA" name="campoA" required>
+
+    <label for="campoB">Campo B:</label>
+    <input type="number" id="campoB" name="campoB" required>
+
+    <button type="submit">Submeter</button>
+  </form>
+
+</body>
+</html>
